@@ -4,14 +4,7 @@
 //1 cup = 1/4qts
 
 //setup
-double value1; //to conver to something else
-single convertOptions; //Conversion Options
-double multipyByFour = 4; //gallons to quarts and quarts to cups
-double divideByFour = .25; //quarts to gallons and cups to quarts
-double divideBySixteen = .0625; //cups to gallons
-double value2; //answer
-string units; // final units
-single continueAnswer; // loop repeat yes or no option
+
 
 //input
 do {
