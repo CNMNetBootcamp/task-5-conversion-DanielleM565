@@ -7,6 +7,7 @@ namespace Task4
         static void Main(string[] args)
         {
             //setup
+            //TODO: Initialize all variables
             double value1; //to conver to something else
             Single convertOptions; //Conversion Options
             //double multipyByFour = 4; //gallons to quarts and quarts to cups
@@ -35,16 +36,19 @@ namespace Task4
 
                 if (convertOptions == 1) //gallons to quarts and quarts to cups
                 {
+                    //TODO: Refactor away from magic numbers
                     value2 = value1 * 4;
                     units = " Quarts";
                 }
                 else if (convertOptions == 2) //cups to gallons
                 {
+                    //TODO: Refactor away from magic numbers
                     value2 = value1 * 0.0625;
                     units = " Gallons";
                 }
                 else
                 {
+                    //TODO: Refactor away from magic numbers
                     value2 = value1 * 4; //quarts to cups
                     units = " cups";
                 }
