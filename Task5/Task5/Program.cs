@@ -6,6 +6,7 @@ namespace Task4
     {
         static void Main(string[] args)
         {
+            //Good
             //setup
             //TODO: Initialize all variables
             double value1; //to conver to something else
